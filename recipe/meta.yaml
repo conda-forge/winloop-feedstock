@@ -1,5 +1,5 @@
 {% set name = "winloop" %}
-{% set version = "0.8.3" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/winloop-{{ version }}.tar.gz
-  sha256: cf8b1926bb4dfd8b4335064f0885ced6a3050ca6ae9093affcd29bd2f0fb0ba3
+  sha256: 16687656426839b025ac4d36d1167ea81340dfccb56ca27d504fb7916d6fedbb
 
 build:
   skip: true  # [not win]
